@@ -3,13 +3,12 @@
     padding: 5vh;
     box-sizing: content-box;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     background-color: azure;
 }
 .about_img{
     padding: 10px;
     flex: 20%;
-    flex-grow: 1;
     margin: auto;
 }
 
@@ -36,7 +35,3 @@
     font-size: 18px;
     text-align: justify;
 }
-
-/* .about_content_container{
-    justify-items: center;
-} */
