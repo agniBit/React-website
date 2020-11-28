@@ -6,12 +6,14 @@ import Banner from '../Banner';
 import About from '../About'
 import Services from '../Services';
 import Contact from '../contact';
+import Carousel_ from '../Carousel';
 
 function Home() {
   return (
     <>
       <Banner />
       <Cards />
+      <Carousel_ />
       <Services />
       <About />
       <Contact />

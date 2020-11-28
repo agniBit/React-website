@@ -2,10 +2,6 @@
 const nodemailer = require('nodemailer');
 
 function Send(){
-    // get('/send',(req,res) =>{
-    //     res.send("eiuaewkbbiue");
-    // });
-
     // async..await is not allowed in global scope, must use a wrapper
     async function main() {
     // Generate test SMTP service account from ethereal.email
@@ -36,7 +32,7 @@ function Send(){
 
     main().catch(console.error);
 
-    return('lankwerif')
+    return('Massage send')
 
 }
 
