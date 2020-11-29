@@ -5,9 +5,14 @@ import './Banner.css';
 
 function Banner() {
   return (
+    <>
+    <img src='./images/bg.svg' className="banner-img" />
     <div className="banner">
-      <img src='./images/main_.jpg' className="banner-img" />
-      <div className="contant">
+      <div id='btry-position'>
+      <img src='./images/battery(1).svg' className="battery-logo" />
+      </div>
+      <div className="contant" >
+        <div className='abcd'>
         <h1>NIKHIL BATTERIES</h1>
         <p>Car Battery | Inverter Battery | 2 Wheelers Battery | Inverters</p>
         <div className="btns">
@@ -18,8 +23,10 @@ function Banner() {
             <button className="btn btn-callnow">call now</button>
           </div>
         </div>
+        </div>
       </div>
     </div>
+    </>
   );
 }
 

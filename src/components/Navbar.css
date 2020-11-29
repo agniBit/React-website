@@ -15,17 +15,19 @@
 
 
 .navbar-up {
+  padding: 1vh 5vw;
   width: 100%;
-  background: linear-gradient(rgb(43, 3, 3) 0%, rgb(26, 23, 23) 100%);
+  background-color: #fff;
+  /* background: linear-gradient(rgb(250, 249, 249) 0%, rgb(214, 214, 214) 100%); */
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
   position: fixed;
   top: 0;
   z-index: 10000;
-  transition: .5s;
+  transition: all .3s ease;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05); 
 }
 
@@ -39,31 +41,28 @@
 }
 
 .navbar-logo {
-  color: #fff;
+  color: rgb(0, 0, 0);
   justify-self: right;
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
   width: 20%;
 }
 
-.fa-typo3 {
-  margin-left: 0.5rem;
-  font-size: 1.8rem;
-}
-
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  height: 100%;
+  grid-template-columns: repeat(3, auto);
   grid-gap: 10px;
   list-style: none;
-  text-align: center;
-  width: 80%;
-  justify-content: end;
-  margin-right: 30px;
+  text-align: right;
+  width: 70%;
+  justify-content: right;
+  object-position: right;
+  /* margin-right: 30px; */
   position: relative;
 }
 
@@ -72,18 +71,19 @@
 }
 
 .nav-links {
-  color: #fff;
+  color: rgb(0, 0, 0);
   display: flex;
   align-items: center;
+  justify-content: center;
+  text-align: center;
   text-decoration: none;
-  /* padding: 0.5rem 1rem; */
   height: 100%;
 }
 
 .nav-links:hover {
-  height: 50px;
-  border-bottom: 4px solid #fff;
-  transition: all 0.2s ease-out;
+  /* height: 50px; */
+  transition: all 0.3s ease-out;
+  text-decoration: none;
 }
 
 .fa-bars {
