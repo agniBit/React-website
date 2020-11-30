@@ -2,13 +2,12 @@
   "name": "sitev",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://amrabhiagni.github.io/",
+  "homepage": "https://amrabhiagni.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.5.3",
-    "gh-pages": "^3.1.0",
     "nodemailer": "^6.4.16",
     "react": "^16.13.1",
     "react-awesome-slider": "^4.1.0",
@@ -39,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
