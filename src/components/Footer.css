@@ -13,7 +13,7 @@
   font-size: 24px;
 }
 
-.social-media {
+.social-media{
   max-width: 1000px;
   width: 100%;
 }
@@ -36,13 +36,17 @@
 
 .social-logo {
   color: #fff;
-  justify-self: start;
-  margin-left: 20px;
+  text-align: center;
+  font-size: 18px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
   display: flex;
   align-items: center;
+}
+
+.social-logo:hover {
+  color: red;
+  text-decoration: none;
 }
 
 .website-rights {

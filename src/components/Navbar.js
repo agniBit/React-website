@@ -44,42 +44,47 @@ function Navbar() {
             Nikhil Batteries
           </Link>
           <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
+            <img src={click ? 'images/delete.png' : 'images/list.png'}/>
           </div>
           <ul className={ click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='#banner' className='nav-links' onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
+
             <li className='nav-item'>
               <Link
-                to='/services'
+                to='#shop'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Shop
+              </Link>
+            </li>
+
+            <li className='nav-item'>
+              <Link
+                to='#services'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Services
               </Link>
             </li>
+
             <li className='nav-item'>
-              <Link
-                to='/products'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Products
+              <Link to='#contact' className='nav-links' onClick={closeMobileMenu}>
+                Contact
               </Link>
             </li>
 
-            <li>
-              <Link
-                to='/sign-up'
-                className='nav-links-mobile'
-                onClick={closeMobileMenu}
-              >
-                Sign Up
+            <li className='nav-item'>
+              <Link to='' className='nav-links' onClick={closeMobileMenu}>
+                Call
               </Link>
             </li>
+
           </ul>
         </div>
       </nav>
