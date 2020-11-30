@@ -8,7 +8,7 @@ function Services(){
             <div className='services_container'>
                 <div className="service_container">
                     <div className="service_logo">
-                        <i class="fa fa-cart-arrow-down fa-5x" />
+                        <img src='images/free-delivery.svg' />
                     </div>
                     <h2>FREE PROFESSIONAL Installation</h2>
                     <p>Cash On Delivery, Best Prices.</p>
@@ -16,15 +16,14 @@ function Services(){
 
                 <div className="service_container">
                     <div className="service_logo">
-                        <i class="fa fa-cart-arrow-down fa-5x" />
+                        <img src='images/install.svg' />
                     </div>
                     <h2>FREE PROFESSIONAL Installation</h2>
                     <p>Cash On Delivery, Best Prices.</p>
                 </div>
-
                 <div className="service_container">
                     <div className="service_logo">
-                        <i class="fa fa-cart-arrow-down fa-5x" />
+                    <img src='images/construction.svg' />
                     </div>
                     <h2>FREE PROFESSIONAL Installation</h2>
                     <p>Cash On Delivery, Best Prices.</p>

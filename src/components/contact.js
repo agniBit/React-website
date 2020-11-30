@@ -3,6 +3,7 @@ import './contact.css'
 
 function Contact(){
     return(
+    <>
         <div className='contact'>
             <div className='contact-container'>
                 <div className='contact-img'>
@@ -28,6 +29,7 @@ function Contact(){
                 </div>
             </div>
         </div>
+        </>
     )
 };
 

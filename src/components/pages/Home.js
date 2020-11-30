@@ -13,7 +13,6 @@ function Home() {
     <>
       <Banner />
       <Cards />
-      <Carousel_ />
       <Services />
       <About />
       <Contact />
