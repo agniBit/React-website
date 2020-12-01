@@ -8,12 +8,10 @@ import Send from './components/Send'
 function App() {
   return (
     <>
-      <Router>
+      <Router >
         <Navbar />
-        <Switch>
-          <Route path='/' exact component={Home} />
+          <Route path='/'  component={Home} />
           <Route path='/send' component={Send} />
-        </Switch>
       </Router>
     </>
   );

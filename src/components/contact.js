@@ -4,7 +4,7 @@ import './contact.css'
 function Contact(){
     return(
     <>
-        <div className='contact' id='contact'>
+        <div className='contact pad' id='contact'>
             <div className='contact-container'>
                 <div className='contact-img'>
                     <img src='images/getintouch.png' />

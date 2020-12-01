@@ -6,7 +6,7 @@ function Banner() {
   return (
     <>
     <img src='./images/bg.svg' className="banner-img" />
-    <div className="banner" id='banner'>
+    <div className="banner pd" id='banner'>
       <div id='btry-position'>
       <img src='./images/battery(1).svg' className="battery-logo" />
       </div>

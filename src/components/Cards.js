@@ -4,39 +4,39 @@ import CardItem from './CardItem';
 
 function Cards() {
   return (
-    <div className='cards'>
+    <div className='cards pad'>
       <h1>Shop by category</h1>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
+      <div className='cards_container'>
+        <div className='cards_wrapper'>
+          <ul className='cards_items'>
             <CardItem
-              src='images/Bike Redore_wwwroot_uploads_svg_red_4AAGR1D-bike-red-vector.svg'
+              src='images/bike.gif'
               text='All batteries'
               label='Bike batteries'
               path='/services'
             />
             <CardItem
-              src='images/koconmus_Syrena_Sport.svg'
+              src='images/car2.gif'
               text='Car batteries'
               label='Car batteries'
               path='/services'
             />
           </ul>
-          <ul className='cards__items'>
+          <ul className='cards_items'>
             <CardItem
-              src='images/Truck.svg'
+              src='images/truck.gif'
               text='Truck Batteries'
               label='Truck Batteries'
               path='/services'
             />
             <CardItem
-              src='images/sweet_home.svg'
+              src='images/home2.gif'
               text='Truck Batteries'
               label='Inverter Batteries'
               path='/products'
             />
             <CardItem
-              src='images/battery.svg'
+              src='images/home2.gif'
               text='Truck Batteries'
               label='All Batteries'
               path='/sign-up'

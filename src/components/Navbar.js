@@ -38,7 +38,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className={ nav_up ? 'navbar' : 'navbar-up'}>
+      <nav className={ !click & nav_up ? 'navbar' : 'navbar-up'}>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             Nikhil Batteries
@@ -47,6 +47,7 @@ function Navbar() {
             <img src={click ? 'images/delete.png' : 'images/list.png'}/>
           </div>
           <ul className={ click ? 'nav-menu active' : 'nav-menu'}>
+
             <li className='nav-item'>
               <Link to='#banner' className='nav-links' onClick={closeMobileMenu}>
                 Home
