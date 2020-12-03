@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
@@ -16,12 +15,7 @@ function Navbar() {
     } else {
       setButton(true);
     }
-    console.log(button);
   };
-
-  useEffect(() => {
-    setNav_up();
-  }, []);
 
   useEffect(() => {
     showButton();
@@ -29,7 +23,7 @@ function Navbar() {
 
   window.addEventListener('resize', showButton);
   window.addEventListener('scroll', function(){
-    if (window.scrollY > 0){
+    if (window.scrollY > 10){
       setNav_up(false);
     } else {
       setNav_up(true);
@@ -49,41 +43,43 @@ function Navbar() {
           <ul className={ click ? 'nav-menu active' : 'nav-menu'}>
 
             <li className='nav-item'>
-              <Link to='#banner' className='nav-links' onClick={closeMobileMenu}>
+              <a href='#banner' className='nav-links' 
+                onClick={closeMobileMenu}>
                 Home
-              </Link>
+              </a>
             </li>
 
             <li className='nav-item'>
-              <Link
-                to='#shop'
+              <a
+                href='#shop'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Shop
-              </Link>
+              </a>
             </li>
 
             <li className='nav-item'>
-              <Link
-                to='#services'
+              <a
+                href='#services'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Services
-              </Link>
+              </a>
             </li>
 
             <li className='nav-item'>
-              <Link to='#contact' className='nav-links' onClick={closeMobileMenu}>
+              <a href='#contact' className='nav-links' onClick={closeMobileMenu}>
                 Contact
-              </Link>
+              </a>
             </li>
 
             <li className='nav-item'>
-              <Link to='' className='nav-links' onClick={closeMobileMenu}>
-                Call
-              </Link>
+              <a href='tel:+919807045162' className='nav-links'
+                onClick={closeMobileMenu}>
+                <i class="fas fa-phone-alt"></i><b>9807045162</b>
+              </a>
             </li>
 
           </ul>

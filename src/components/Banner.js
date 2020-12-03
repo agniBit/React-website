@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import './Banner.css';
-
+import { ScrollToDiv } from '../helper'
 function Banner() {
   return (
     <>
@@ -16,10 +16,10 @@ function Banner() {
         <p>Car Battery | Inverter Battery | 2 Wheelers Battery | Inverters</p>
         <div className="btns">
           <div className='btn-container'>
-            <button className="btn btn-shopnow">Shop Now</button>
+            <button className="btn btn-shopnow" onClick={()=>ScrollToDiv("shop")}>Shop Now</button>
           </div>
           <div className="btn-container">
-            <button className="btn btn-callnow">call now</button>
+          <a href='tel:+919807045162'><button className="btn btn-callnow">call now</button></a>
           </div>
         </div>
         </div>

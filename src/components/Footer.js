@@ -13,51 +13,53 @@ function Footer() {
               NIKHIL BATTERIES
             </Link>
           </div>
-          <Link to="https://g.page/nikhil-electricals?share"
-            target='_blank'>
-            thathia,kannauj,UP 209734
-          </Link>
+          <a href="https://g.page/nikhil-electricals?share" class='addr' target='_blank'>
+            <small class='addr'>Saraimeera, Kannauj, UP 209727</small>
+          </a>
           <div class='social-icons'>
-            <Link
+            <a
               class='social-icon-link facebook'
-              to='/'
+              href='/'
               target='_blank'
               aria-label='Facebook'
             >
               <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
+            </a>
+            <a
               class='social-icon-link instagram'
-              to='/'
+              href='/'
               target='_blank'
               aria-label='Instagram'
             >
               <i class='fab fa-instagram' />
-            </Link>
-            <Link
-              class='social-icon-link youtube'
-              to='/'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i class='fab fa-youtube' />
-            </Link>
-            <Link
+            </a>
+            <a
               class='social-icon-link twitter'
-              to='/'
+              href='/'
               target='_blank'
               aria-label='Twitter'
             >
               <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
+            </a>
+
+            <a
+              class='social-icon-link'
+              href='/'
               target='_blank'
-              aria-label='LinkedIn'
+              aria-label='Twitter'
             >
-              <i class='fab fa-linkedin' />
-            </Link>
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+            </a>
+
+            <a
+              class='social-icon-link'
+              href='/'
+              target='_blank'
+              aria-label='Twitter'
+            >
+              <i class="fa fa-phone" aria-hidden="true"></i>
+            </a>
+
           </div>
         </div>
       </section>

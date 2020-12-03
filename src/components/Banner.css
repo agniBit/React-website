@@ -51,6 +51,7 @@
 }
 
 .contant h1{
+    padding-top: 50px;
     position: relative;
     padding: -100px;
     color: rgb(255, 5, 5)!important;
@@ -88,6 +89,14 @@
     justify-content: center;
 }
 
+.btn-container a{
+    width: 100%;
+    text-decoration: none;
+}
+
+.btn-container a{
+    text-decoration: none;
+}
 .btn:hover{
     color: bisque;
     letter-spacing: 2px;

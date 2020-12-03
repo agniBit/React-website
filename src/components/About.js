@@ -4,7 +4,7 @@ import '../App.css';
 
 function About() {
   return (
-    <div className="about pad">
+    <div className="about pad" id="about">
         <div className="about_img">
             <img src="./images/problem.png" />
         </div>
