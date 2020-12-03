@@ -8,7 +8,7 @@ import Send from './components/Send'
 function App() {
   return (
     <>
-      <Router >
+      <Router basename='/React-website'>
         <Navbar />
           <Route path='/' exact component={Home} />
           <Route path='/send' component={Send} />
