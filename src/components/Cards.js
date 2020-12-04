@@ -10,13 +10,13 @@ function Cards() {
         <div className='cards_wrapper'>
           <ul className='cards_items'>
             <CardItem
-              src='images/7b5a1b423d6b437b993050e8abda24f5.gif'
+              src='images/all_m.gif'
               text='All batteries'
               label='Bike batteries'
               path='/services'
             />
             <CardItem
-              src='images/car2.gif'
+              src='images/car_m.gif'
               text='Car batteries'
               label='Car batteries'
               path='/services'
@@ -24,13 +24,13 @@ function Cards() {
           </ul>
           <ul className='cards_items'>
             <CardItem
-              src='images/truck.gif'
+              src='images/truck_m.gif'
               text='Truck Batteries'
               label='Truck Batteries'
               path='/services'
             />
             <CardItem
-              src='images/home2.gif'
+              src='images/home_m.gif'
               text='Inverter Batteries'
               label='Inverter Batteries'
               path='/products'
