@@ -55,12 +55,14 @@
 }
 
 .services_container h2{
-    padding: .8em;
+    padding-top: .8em;
+    font-weight: bold;
     color: black;
 }
 
 .services_container p{
     color: black;
+    padding-top: 0;
 }
 
 
@@ -94,7 +96,6 @@
 
     .services_container h2{
         padding-bottom: 0;
-        color: yellow!important;
     }
 
 }
